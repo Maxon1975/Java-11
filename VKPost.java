@@ -1,72 +1,30 @@
-package ru.netology.ru.netology.domain;
-
+package  ru.netology.domain;
 
 public class VKPost {
 
-    class LikesInfo {
-    }
-
     //используем отношение has-a
-    private LikesInfo likesInfo;
-
-    class Account {
-    }
+    private LikesInformation likesInformation;
 
     private Account account;
 
-    class AttachmentPost {
-    }
-
     private AttachmentPost attachmentPost;
 
-    class CommentsInfo {
-    }
-
-    private CommentsInfo commentsInfo;
-
-    class Copyright {
-    }
+    private InformationComments informationcomments;
 
     private Copyright copyright;
 
-    class Donut {
-    }
-
     private Donut donut;
-
-    class GeoPost {
-    }
 
     private GeoPost geoPost;
 
-    class OwnerPost {
-    }
-
-    private OwnerPost ownerPost;
-
-    class Placeholder {
-    }
+    private PostOwner postowner;
 
     private Placeholder placeholder;
-
-    class Post {
-    }
-
-    private Post post;
-
-    class RepostPost {
-    }
-
+    
     private RepostPost repostPost;
 
-    class ViewsInfo {
-    }
+    private ViewsInformation viewsInformation;
 
-    private ViewsInfo viewsInfo;
-
-    class WritingOnTheWall {
-    }
-
-    private WritingOnTheWall writingOnTheWall;
+    private WritingWall writingWall;
 
 }
