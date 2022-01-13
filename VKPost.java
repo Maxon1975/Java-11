@@ -12,11 +12,13 @@ public class VKPost {
     private InformationComments informationcomments;
 
     private Copyright copyright;
-
+   
     private Donut donut;
 
     private GeoPost geoPost;
-
+    
+    private Post post;
+    
     private PostOwner postowner;
 
     private Placeholder placeholder;
