@@ -1,19 +1,14 @@
-package ru.netology.domain;
+ package ru.netology.domain;
 
 public class Post {
-    private int postId;
-    private int userId;
-    private int wallId;
-    private int date;
-    private int text;
-    private int photoId;
-    private int soundId;
-    private int repostId;
-    private int commentId;
-    private int likeId;
-    private boolean canPost;
-    private CommentsInfo commentsInfo;
-    private LikesInfo likesInfo;
-    private RepostInfo repostInfo;
-    private ViewsInfo viewsInfo;
-    }
+    private int signerId;//Идентификатор автора, если запись была опубликована от имени сообщества и подписана пользователем;
+    private int canPin; // Информация о том, может ли текущий пользователь закрепить запись (1 — может, 0 — не может)
+    private int canDelete; // Информация о том, может ли текущий пользователь удалить запись (1 — может, 0 — не может);
+    private int canEdit; // Информация о том, может ли текущий пользователь редактировать запись (1 — может, 0 — не может);
+    private int isPinned; //Информация о том, что запись закреплена;
+    private boolean markedAsAds;//Информация о том, содержит ли запись отметку «реклама» (true — да, false — нет);
+    private boolean isFavorite;//true, если объект добавлен в закладки у текущего пользователя;
+
+
+    //+ getter/setter
+}
